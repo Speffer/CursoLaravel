@@ -20,6 +20,7 @@ Vue.component('header-component', require('./components/Header.vue'));
 Vue.component('painel-component', require('./components/Painel.vue'));
 Vue.component('caixa-component', require('./components/Caixa.vue'));
 Vue.component('pagina-component', require('./components/Pagina.vue'));
+Vue.component('tabela-component', require('./components/Tabela.vue'));
 
 const app = new Vue({
     el: '#app'
