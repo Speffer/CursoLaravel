@@ -21,6 +21,10 @@ Vue.component('painel-component', require('./components/Painel.vue'));
 Vue.component('caixa-component', require('./components/Caixa.vue'));
 Vue.component('pagina-component', require('./components/Pagina.vue'));
 Vue.component('tabela-component', require('./components/Tabela.vue'));
+Vue.component('breadcrumb-component', require('./components/BreadCrumb.vue'));
+Vue.component('modal-component', require('./components/modal/Modal.vue'));
+Vue.component('modallink-component', require('./components/modal/ModalLink.vue'));
+Vue.component('formulario-component', require('./components/Formulario.vue'));
 
 const app = new Vue({
     el: '#app'

@@ -4,7 +4,7 @@
 
     <pagina-component tamanho="7">
         <painel-component titulo="Dashboard">
-            Testeee
+            <breadcrumb-component v-bind:lista="{{$listaCrumb}}"></breadcrumb-component>
 
             <div class="row">
                 <div class="col-md-4">
