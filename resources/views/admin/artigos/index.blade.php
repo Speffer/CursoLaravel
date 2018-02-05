@@ -18,7 +18,19 @@
     <modal-component nome="teste">
 
         <painel-component titulo="Adicionar">
-            <formulario-component></formulario-component>
+            <formulario-component enctype="multipart/form-data" method="post">
+
+                <div class="form-group">
+                    <label for="titulo">Título</label>
+                    <input type="text" class="form-control" id="titulo" placeholder="Título" name="titulo">
+                </div>
+                <div class="form-group">
+                    <label for="descricao">Descrição</label>
+                    <input type="text" class="form-control" id="descricao" placeholder="Descrição" name="descricao">
+                </div>
+                <button type="submit" class="btn btn-default">Adicionar</button>
+
+            </formulario-component>
         </painel-component>
 
     </modal-component>

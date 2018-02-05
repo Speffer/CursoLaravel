@@ -17,7 +17,7 @@ class ArtigosController extends Controller
 
         $listaCrumb = json_encode([
             ["titulo" => "Home", "url" => route('home')],
-            ["titulo" => "Lista", "url" => ""]
+            ["titulo" => "Lista de Artigos", "url" => ""]
         ]);
 
         return view('admin.artigos.index', compact('listaCrumb'));
